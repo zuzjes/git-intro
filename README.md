@@ -76,3 +76,5 @@ Ted pokud mi to trvalo dlouho muzu znovy pullnout zmeny, abych si stahla nejnove
 ```
 git push
 ```
+
+## A to je zatim vse ;)

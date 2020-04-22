@@ -1,10 +1,16 @@
 # Git intro
 
-Git je verzovaci nastroj - ukladame i ruzne verze projektu, muzeme pracovat ve vice vetvich a lepe tak kolaborovat v tymu aniz, by moje prace ovlinila prace nekoho jineho, pracujiciho klidne na stejnych souborech jako ja. Zmeny pak "zmergujeme" do jedne hlavni vetve - vesinou se nazyva Master nebo Develop.
+Git je verzovaci nastroj - ukladame i ruzne verze projektu, muzeme pracovat ve vice vetvich a lepe tak kolaborovat v tymu aniz, by moje prace ovlinila prace nekoho jineho, pracujiciho klidne na stejnych souborech jako ja. (Vetve pak spojime - zmergujeme)
 
 Kdyz prijdu k projektu na kterem nepracuji sama tak vzdy udelam `git pull` v terminalu ve spravnem souboru/projektu. Takzvane si pullnu, stahnu zmeny.
 
-Pak muzu zacit pracovat na svem projektu. Pak se rozhodnu ze uz jsem v nejake fazi kdy mi projekt funguje a treba chci zkusit neco experimentalniho, v tu chvili si ulozit danou verzi projektu. Udelam proto 4 nasledujici kroky, bud primo ve VS CODE, nebo terminalu:
+Pak muzu zacit pracovat na svem projektu. Kdyz se rozhodnu ze uz jsem v nejake fazi kdy mi projekt funguje a treba chci zkusit neco experimentalniho, v tu chvili si ulozim danou verzi projektu. Udelam proto 4 nasledujici kroky, bud primo ve VS CODE, nebo terminalu. Kroky za sebou stejne postupuji i ve VS CODE. Kliknu na zalozku git v levem sloupci.
+
+1. pridam zmeny pomoci +       (GIT ADD)
+2. nahore se mi objevi policko kam napiu zpravu a fajfkou ji potvrdim     (GIT COMMIT)
+3. rozbalim moznosti - ... a kliknu na PUSH (GIT PUSH)
+
+#### Nebo pomoci terminalu
 
 1. v terminalu zavolam
 

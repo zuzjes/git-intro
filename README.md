@@ -39,7 +39,7 @@ Zjistim tedy status naseho projektu, jake soubory jsem upravila a pak podle toho
 
 ```
    git add .
-   <!-- nebo pokud se rozhodnu jen nejake - aa bb -->
+   # nebo pokud se rozhodnu jen nejake - aa bb
    git add aa bb
 ```
 

@@ -27,7 +27,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Zjistim tedy statu naseho projektu, jake soubory jsem upravila a pak podle toho napisu smysluplny commit.
+Zjistim tedy status naseho projektu, jake soubory jsem upravila a pak podle toho napisu smysluplny commit.
 
 2. pridam soubory, nemusim vsechny. Tecka znamena vse, nebo ve VS CODU promoci +
 
@@ -37,7 +37,7 @@ Zjistim tedy statu naseho projektu, jake soubory jsem upravila a pak podle toho 
    git add aa bb
 ```
 
-kdyz znovu provedu git status melo by se pak zobrazit toto:
+, pridavam tedy pouze soubory aa a bb kdyz znovu provedu git status melo by se pak zobrazit toto:
 
 ```
 zuz@zuz-mac:~/Projects/tmp (master)$ st
@@ -53,4 +53,20 @@ Changes to be committed:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 	cc
+```
+
+3. pokud jsem spokojena s tim co jsem pridala, chci to i nejak okomnetovat, aby kdyz se k tomu vracim davalo smysl proc jsem treba vybrala jen tyto dva.
+   Provedu tedy prikaz:
+
+```
+git commit
+```
+
+a otevre se mi Vim. Zmacknu i, jako instert - vlozit. Ted uz muzu psat, dam ENTER a na prvni radku napisu commit `add new file aa and bb`. Pokud jsem spokojena kliknu na ESC klavesnici a tim se dostanuna posledni radek a napisi `:wq` - write quit a ENTER. Tim se vratim do normalniho terminalu. A posledni krok.
+
+Ted pokud mi to trvalo dlouho muzu znovy pullnout zmeny, abych si stahla nejnovejsi verzi, pokud nekdo pushnul behem toho kdyz jsem tam neco upravovala. 
+
+4. Nahraju svoje zmeny do repozitare. 
+```
+git push
 ```
